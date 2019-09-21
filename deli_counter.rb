@@ -5,8 +5,8 @@ def line (line)
    else
     count = 1
     line.each do |person|
-    puts "The line is currently: "
-    end
+    puts "The line is currently: #{count}. #{person}"
+    count += 1
    end 
 end
 

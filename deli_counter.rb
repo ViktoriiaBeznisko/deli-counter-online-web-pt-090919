@@ -13,7 +13,7 @@ def line (line)
       output += " " if count != line.size
     end
     puts output
-    output
+   
    end 
 end
 

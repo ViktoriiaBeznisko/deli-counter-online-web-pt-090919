@@ -3,7 +3,7 @@ def line (katz_deli)
   katz_deli = []
   case katz_deli.length
    when 0
-     puts ""
+     puts "there is nobody in line"
    end 
 end
 

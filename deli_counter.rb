@@ -12,7 +12,7 @@ end
      # counter > 0
      # puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
 
-def take_a_number (katz_deli, name)
+def take_a_number (katz_deli)
   counter = 1
   katz_deli.each do |name|
   puts "Welcome, #{name}. You are number #{counter} in line."

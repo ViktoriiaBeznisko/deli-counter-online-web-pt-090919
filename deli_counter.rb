@@ -4,9 +4,8 @@ def line (line)
     puts "The line is currently empty."
    else
     line.each do |person|
-      count += 1
-      output += "#{count}. #{person}"
-      output += " " if count != line.size
+      count = 1
+      puts "The line is currently: "
     end
    end 
 end

@@ -1,6 +1,6 @@
 
 def line (katz_deli)
-  katz_deli = []
+ 
   case katz_deli.length
    when 0
      puts "The line is currently empty."

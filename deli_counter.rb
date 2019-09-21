@@ -1,13 +1,19 @@
 
 def line (line)
+  
    if line.length == 0
     puts "The line is currently empty."
-   else
     
+   else
+    output = "The line is currently: "
+    count = 0
     line.each do |person|
-      count = 1
-    puts "The line is currently: #{count}. #{person}"
-    count += 1
+      count += 1
+      output += "#{count}. #{person}"
+      output += " " if count != line.size
+    end
+    puts output
+    output
    end 
 end
 

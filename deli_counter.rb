@@ -12,7 +12,7 @@ def line (line)
       output += "#{count}. #{person}"
       output += " " if count != line.size
     end
-    puts output
+    output
    
    end 
 end

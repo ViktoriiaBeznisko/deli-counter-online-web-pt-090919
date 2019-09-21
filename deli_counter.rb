@@ -13,11 +13,8 @@
 
 def take_a_number (katz_deli, name)
 puts "Welcome, #{name}. You are number #{katz_deli.length + 1} in line."
-  counter += 1
-  end
+katz_deli << name
 end
 
-def take_a_number(line, person)
-  puts "Welcome, #{person}. You are number #{line.size + 1} in line."
-  line << person
-end
+
+

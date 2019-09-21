@@ -22,11 +22,11 @@ def take_a_number (katz_deli_line, name)
 katz_deli_line << name
 end
 
-def now_serving (line)
+def now_serving (line, name)
   if line.length == 0
   puts "There is nobody waiting to be served!"
 else 
-  puts "Currently serving Logan."
+  puts "Currently serving #{name}."
 end
 end
 

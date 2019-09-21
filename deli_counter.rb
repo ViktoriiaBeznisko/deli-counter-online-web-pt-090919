@@ -25,8 +25,9 @@ end
 def now_serving (line)
   if line.length == 0
   puts "There is nobody waiting to be served!"
+else 
+  puts "Currently serving Logan."
 end
 end
 
-#"Currently serving Logan."
 

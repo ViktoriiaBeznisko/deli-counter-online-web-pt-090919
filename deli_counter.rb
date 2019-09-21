@@ -13,7 +13,6 @@ def line (line)
       phrase += " " if count != line.size
     end
     puts phrase
-   
    end 
 end
 

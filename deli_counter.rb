@@ -13,9 +13,9 @@ end
      # puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
 
 def take_a_number (katz_deli, name)
-  number = 1
+  counter = 1
   katz_deli.each do |name|
-  puts "Welcome, #{name}. You are number #{number} in line."
-  number += 1
+  puts "Welcome, #{name}. You are number #{counter} in line."
+  counter += 1
   end
 end

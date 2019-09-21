@@ -3,9 +3,9 @@ def line (line)
    if line.length == 0
     puts "The line is currently empty."
    else
+    count = 1
     line.each do |person|
-      count = 1
-      puts "The line is currently: "
+    puts "The line is currently: "
     end
    end 
 end

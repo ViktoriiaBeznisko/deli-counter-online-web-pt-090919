@@ -1,5 +1,5 @@
 # Write your code here.
-def line 
+def line (katz_deli)
   katz_deli = []
   case katz_deli.length
     when 0

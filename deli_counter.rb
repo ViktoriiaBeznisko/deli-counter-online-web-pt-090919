@@ -13,4 +13,7 @@ end
      # puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
 
 def take_a_number (katz_deli, name)
+  katz_deli.each do |name|
   puts "Welcome, #{name}. You are number #{number} in line."
+  end
+end

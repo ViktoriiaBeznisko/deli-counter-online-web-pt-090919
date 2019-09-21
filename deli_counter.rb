@@ -22,10 +22,10 @@ def take_a_number (katz_deli_line, name)
 katz_deli_line << name
 end
 
-def now_serving
-    context "there are no people in line" do
-      it "should say that the line is empty" do
-        expect($stdout).to receive(:puts).with("There is nobody waiting to be served!")
-        now_serving(katz_deli)
+def now_serving (line)
+   if line.length == 0
+    puts
+"There is nobody waiting to be served!"
 
+#"Currently serving Logan."
 

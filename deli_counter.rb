@@ -7,9 +7,7 @@ def line
   end 
 end
 
-  case other_deli.length
-    when 
-      counter > 0
-      puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
-  end
-end
+  #case other_deli.length
+    #when 
+     # counter > 0
+     # puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
